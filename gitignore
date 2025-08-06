@@ -1,0 +1,16 @@
+4. Scroll down and click **“Commit new file”**
+
+---
+
+#### 🔹 3. Create `.gitignore`
+1. Click **“Add file”** → **“Create new file”**
+2. Type: `.gitignore`
+3. Paste this:
+
+```gitignore
+__pycache__/
+*.pyc
+*.pkl
+.env
+.DS_Store
+*.sqlite3
