@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white */
+  backdrop-filter: blur(10px); /* Frosted glass */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1f4037;
+  font-weight: bold;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #1f4037;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #14532d;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f5fdf5;
+  border-left: 6px solid #28a745;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.progress {
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 16px;
+}
